@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/66c63b4ed2.js"></script>
+    <title>Sliding Form</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1>Create Account</h1>
+          <hr />
+          <div class="group-input">
+            <i class="fa fa-lock"></i>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="group-input">
+            <i class="fa fa-lock"></i>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="group-input">
+            <i class="fa fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <button>Sign Up</button>
+          <div class="social-login">
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1>Sign in</h1>
+          <hr />
+          <div class="group-input">
+            <i class="fa fa-lock"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+
+          <div class="group-input">
+            <i class="fa fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <button>Sign In</button>
+
+          <div class="social-login">
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <a href="#">Forgot your password?</a>
+        </form>
+      </div>
+
+      <div class="side-element-container">
+        <div class="side-element">
+          <div class="side-element-panel side-element-left">
+            <h1>Hello!</h1>
+            <p>Enter your personal details and start having fun with us</p>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="side-element-panel side-element-right">
+            <h1>Welcome!</h1>
+            <p>
+              Happy to see you again, login and have fun with us.
+            </p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Created with <i class="fa fa-heart"></i> by
+        <a target="_blank" href="https://twitter.com/i_ndaw">Ibrahima Khalil</a>
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
